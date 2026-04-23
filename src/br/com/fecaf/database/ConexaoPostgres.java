@@ -6,9 +6,9 @@ import br.com.fecaf.utils.Formatador;
 
 public class ConexaoPostgres {
 
-    private static final String URL = "jdbc:postgresql://localhost:5432/banco_java";
+    private static final String URL = "jdbc:postgresql://localhost:/banco_java";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "5432";
+    private static final String PASSWORD = "";
 
     public static Connection conectar(){
 

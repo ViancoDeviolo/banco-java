@@ -3,6 +3,22 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Java
+*.class
+out/
+
+# Config / segurança
+.env
+.env.*
+application.properties
+config.properties
+
+# Logs / banco local
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
